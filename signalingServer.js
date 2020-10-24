@@ -3,8 +3,8 @@ const https = require('https');
 const WebSocket = require('ws');
 
 const server = https.createServer({
-    key: fs.readFileSync('./certs/ws.video.dimodo.ga/key.pem'),
-    cert: fs.readFileSync('./certs/ws.video.dimodo.ga/fullchain.pem')
+    key: fs.readFileSync('./certs/ws.video.ikeargentina.com.ar/key.pem'),
+    cert: fs.readFileSync('./certs/ws.video.ikeargentina.com.ar/fullchain.pem')
 });
 
 const wssecure = new WebSocket.Server({
