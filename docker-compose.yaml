@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    singanling:
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "9090:9090"
+
+    
+    

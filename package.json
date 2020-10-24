@@ -1,0 +1,17 @@
+{
+  "name": "ikesignalingserver",
+  "version": "1.0.0",
+  "description": "Web socket de signaling",
+  "main": "signalingServer.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Monfrinotti",
+  "license": "ISC"
+}
